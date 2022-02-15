@@ -2,14 +2,14 @@
 > Google AdSense integration for Nuxt.js. Advertisements will update whenever the page route changes
 
 ## Setup
-- Add `@nuxtjs/google-adsense` dependency using yarn or npm to your project
-- Add `@nuxtjs/google-adsense` to `modules` section of `nuxt.config.js`
+- Add `@dicydev/google-adsense` dependency using yarn or npm to your project
+- Add `@dicydev/google-adsense` to `modules` section of `nuxt.config.js`
 
 ```js
 {
   modules: [
     // Simple usage
-    ['@nuxtjs/google-adsense', {
+    ['@dicydev/google-adsense', {
       id: 'ca-pub-###########'
     }]
  ]
@@ -21,7 +21,7 @@ Using top level options:
 ```js
 {
   modules: [
-    ['@nuxtjs/google-adsense']
+    ['@dicydev/google-adsense']
   ],
 
  'google-adsense': {
@@ -35,7 +35,7 @@ Using runtime config:
 ```js
 {
   modules: [
-    ['@nuxtjs/google-adsense']
+    ['@dicydev/google-adsense']
   ],
 
   'google-adsense': {
